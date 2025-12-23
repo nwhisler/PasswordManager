@@ -1,1 +1,1 @@
-# PasswordManager
+### This program is a password manager that has the ability to add, validate, delete, update, and generate passwords. It stores passwords as salted hashes and validate passwords by having the user enter a password and comparing if it's hash matches a stored hash from the previous entry. Sha256 and python's os.urandom cryptographic library are used to hash the password and generate a salt value over multiple iterations.
